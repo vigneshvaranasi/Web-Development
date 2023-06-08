@@ -2,13 +2,26 @@
 <html>
 <!-- The head section of the HTML document -->
 <head>
-    <title> Blue Link</title>
+    <title>Blue Link</title>
     <!-- The <title> tag sets the title of the webpage that appears in the browser's title bar -->
 </head>
-    <body>
-        <h1> Click on this Link</h1>
-        <!-- The <h1> tag defines a heading level 1 -->
-        <a href="https://github.com/vigneshvaranasi/Web-Development/">This is my Github Link of Web-Development</a> 
-        <!-- The <a> tag creates a hyperlink with the specified URL as the value of the href attribute -->
-    </body>
+<body>
+    <h1>Click on this Link</h1>
+    <!-- The <h1> tag defines a heading level 1 -->
+
+    <p><a href="https://github.com/vigneshvaranasi/Web-Development/">This is my Github Link of Web-Development</a>: Normal</p><br>
+    <!-- The <a> tag creates a hyperlink with the specified URL as the value of the href attribute -->
+    
+    <p><a href="https://github.com/vigneshvaranasi/Web-Development/" target="_self">Open in same window</a>: _self (Default)</p><br>
+    <!-- The "target" attribute specifies where to open the linked document. "_self" opens the link in the same window/tab (default behavior) -->
+    
+    <p><a href="https://github.com/vigneshvaranasi/Web-Development/" target="_parent">Open in parent frame</a>: _parent</p><br>
+    <!-- The "target" attribute with "_parent" value opens the link in the parent frame of a frameset document -->
+    
+    <p><a href="https://github.com/vigneshvaranasi/Web-Development/" target="_blank">Open in new window/tab</a>: _blank</p><br>
+    <!-- The "target" attribute with "_blank" value opens the link in a new window/tab -->
+    
+    <p><a href="https://github.com/vigneshvaranasi/Web-Development/" target="_top">Open in top window/body</a>: _top</p><br>
+    <!-- The "target" attribute with "_top" value opens the link in the full body of the window -->
+</body>
 </html>
